@@ -1,4 +1,4 @@
-(ns uxgear.kb-test
+(ns uxgear.test.kb
   (:require 
     [clojure.test :refer :all]
     [uxgear.core :as ux]

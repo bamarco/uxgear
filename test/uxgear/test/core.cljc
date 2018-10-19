@@ -1,4 +1,4 @@
-(ns uxgear.core-test
+(ns uxgear.test.core
   (:require 
     [clojure.test :refer :all]
     [clojure.spec.alpha :as s]

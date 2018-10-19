@@ -1,4 +1,4 @@
-(ns uxgear.kit-test
+(ns uxgear.test.kit
   (:require 
     [clojure.test :refer :all]
     [clojure.spec.alpha :as s]
@@ -25,7 +25,7 @@
 
 (deftest test-kit
   (testing "Kit"
-      (is (s/valid? :uxgear.kit-test.kit/slot str))
+      (is (s/valid? :uxgear.test.kit.kit/slot str))
       (is (s/valid? ::kit {:slot str}))))
 
 (deftest test-gear
